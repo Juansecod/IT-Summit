@@ -1,0 +1,58 @@
+.thematic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.2% 10% 72px 10%;
+}
+
+.card{
+    color: #1C2427;
+    width: 33.33%;
+    min-width: 250px;
+    img{
+        width: 100%;
+    }
+    h3{
+        margin-bottom: 26px;
+        font-size: 18px;
+    }
+    h3, p{
+        padding: 0 8% 0 8%;
+    }
+    p{
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+    &--border{
+        padding-top: 14px;
+        padding-bottom: 21px;
+        border-radius: 10px;
+        box-shadow: 0 -2px 20px #ddd;
+        min-height: 180px;
+    }
+    &s--container{
+        display: flex;
+        width: 90%;
+        gap: 5%;
+    }
+    &--live-chat{
+        border-bottom: solid 8px cornflowerblue;
+        h3{
+            color: cornflowerblue;
+        }
+    }
+    &--hands-on{
+        border-bottom: solid 8px orange;
+        h3{
+            color: orange;
+    
+        }
+    }
+    &--networking{
+        border-bottom: solid 8px purple;
+        h3{
+            color: purple;
+        }
+    }
+}

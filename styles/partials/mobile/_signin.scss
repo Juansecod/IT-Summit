@@ -1,0 +1,22 @@
+.signin{
+    padding: 0 10% 5% 10%;
+}
+
+@mixin container-phone {
+    min-width: 240px;
+    padding: 10% 10% 15% 10%;
+}
+
+.thanks{
+    @include container;
+    @include container-phone;
+    display: none; 
+    gap: 20px;
+    p:nth-child(3){
+        width: auto;
+    }
+}
+
+.form{
+    @include container-phone;
+}

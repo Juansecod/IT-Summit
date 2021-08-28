@@ -1,0 +1,23 @@
+.signin{
+    padding: 0 10% 5% 10%;
+}
+
+@mixin container-tablet {
+    padding: 5% 10% 8% 10%;
+}
+
+.thanks{
+    @include container;
+    @include container-tablet; 
+    display: none;
+}
+
+.form{
+    @include container;
+    @include container-tablet;
+    row-gap: 20px;
+    .container-input{
+        min-width: 202px;
+        gap: 10px;
+    }
+}

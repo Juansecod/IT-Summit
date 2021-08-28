@@ -1,0 +1,98 @@
+.signin{
+    background-image: url('../assets/bg_form.jpg'); 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20% 5% 20%;
+}
+
+@mixin container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $white-color;
+    min-height: 500px;
+    padding: 8% 10% 5% 10%;
+    border: $border-container-signin;
+}
+
+.thanks{
+    @include container; 
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8%;
+    &--icons--container{
+        justify-content: space-around;
+        gap: 5%;
+    }
+    .container{
+        text-align: center;
+        h3{
+            font-size: 25px;
+        }
+    }
+    em, i{
+        background-color: $green-color;
+    }
+    p{
+        line-height: 31px;
+        letter-spacing: 0;
+        font-size: 15px;
+        text-align: center;
+    }
+    p:nth-child(3){
+        width: 256px;
+    }
+    i{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        width: 64px;
+        height: 64px;
+        font-size: 34px;
+    }
+}
+
+.form{
+    @include container;
+    
+    row-gap: 10px;
+    justify-content: space-around;
+    .container-input{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        font-family: $font-family;
+        font-size: 13px;
+        gap: 8px;
+        input, select{
+            width: 100%;
+            min-height: 44px;
+            font-family: $font-family;
+            color: $input-font-color;
+        }
+        input:focus, select:focus{
+            outline: none !important;
+            border: 1px solid $blue-color;
+            box-shadow: 0 0 10px #719ECE;
+
+        }
+        label, p, input, select{
+            font-size: 13px;
+        }
+        p{
+            font-style: italic;
+            color: $blue-color;
+        }
+    }
+    .container-button{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        input[type=submit]{
+            @include button-inscribete;    
+        }
+    }
+}

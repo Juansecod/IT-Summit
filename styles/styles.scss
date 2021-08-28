@@ -1,0 +1,30 @@
+@import './partials/variables';
+@import './partials/mixins';
+@import './partials/basic-rules';
+
+@import './partials/header';
+@import './partials/banner';
+@import './partials/thematic';
+@import './partials/speakers';
+@import './partials/diary';
+@import './partials/donors';
+@import './partials/signin';
+@import './partials/footer';
+
+@media screen and (max-width: 1024px) {
+    @import './partials/mobile/header';
+    @import './partials/mobile/banner';
+    @import './partials/mobile/tablet/thematic-tablet';
+    @import './partials/mobile/tablet/speakers-tablet';
+    @import './partials/mobile/tablet/diary-tablet';
+    @import './partials/mobile/tablet/signin-tablet';
+    @media screen and (max-width: 680px) {
+        @import './partials/mobile/diary';
+        @import './partials/mobile/donnors';
+    }
+    @media screen and (max-width: 425px) {
+        @import './partials/mobile/thematic';
+        @import './partials/mobile/speakers';
+        @import './partials/mobile/signin';
+    }
+}

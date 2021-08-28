@@ -1,0 +1,51 @@
+header{
+    position: sticky;
+    top: 0px;
+    background-color: $white-color;
+    display: flex;
+    z-index: 1;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 90px;
+    box-shadow: 0 2px 8px 0 rgba(185,183,183,0.50);
+    nav{
+        width: 40%;
+        min-width: 506.39px;
+        input,span{
+            display: none;
+        }
+    }
+    ul{
+        display: flex;
+        width: 100%;
+        list-style: none;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    li{
+        color: $green-font-color;
+        cursor: pointer;
+        &:hover{
+            color: $green-hover-color;
+        }
+        & p.active{
+            color: $green-active-color;
+        }
+    }
+    a{
+        @extend li;
+    }
+    .navbar--inscribete{
+        @include button-inscribete;
+        &--active{
+            @extend .navbar--inscribete;
+            background: $green-hover-color;
+            color: $white-color;
+            border: 1px solid $green-border-color;
+        }
+    }
+    .font-white{
+        color: $white-color;
+    }
+}

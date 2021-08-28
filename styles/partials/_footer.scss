@@ -1,0 +1,13 @@
+footer{
+    display: flex;
+    background-color: $grey-background;
+    min-height: 60px;
+    justify-content: center;
+    align-items: center;
+    color: $green-font-color;
+    font-size: $font-size-mobile;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: $font-family;
+}

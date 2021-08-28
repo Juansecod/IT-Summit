@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="111px" height="96px" viewBox="0 0 111 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>networking</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 111 0 111 96 0 96"></polygon>
+    </defs>
+    <g id="entregables" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-home_IT_summit_mensaje_form" transform="translate(-1029.000000, -77.000000)">
+            <g id="networking" transform="translate(1029.000000, 77.000000)">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M0,10.543144 L0,0 L0.221989899,40.899415 C0.221989899,71.2047596 25.1470709,96 55.6108802,96 L55.6111097,96 C86.074919,96 111,71.2045312 111,40.899415 L111,0 L111,10.543144 L0,10.543144 Z" id="Fill-1" fill="#933569" mask="url(#mask-2)"></path>
+                </g>
+                <text id="ONLINE" font-family="'Montserrat', sans-serif" font-size="18" font-weight="500" letter-spacing="1" fill="#F8F9F9">
+                    <tspan x="22" y="53">ONLINE</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+.thematic{
+    padding: 0.2% 10% 50px 10%;
+}
+
+.card{
+    width: 35%;
+    &s--container{
+        flex-wrap: wrap;
+        width: 90%;
+        gap: 40px; 
+        justify-content: center;
+    }
+}

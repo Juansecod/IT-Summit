@@ -1,0 +1,17 @@
+@mixin button-inscribete {
+    display: flex;
+    width: 162px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: $green-color;
+    color: $white-color;
+    border: 0;
+    cursor: pointer;
+    font-size: 18px;
+    &:hover{
+        background-color: $green-hover-color;
+        color: $white-color;
+    }
+}

@@ -1,0 +1,62 @@
+.banner{
+    background-color: $banner-background;
+    padding: 0 10% 2% 10%;
+    &--container{
+        display: flex;
+        align-items: center;
+        div{
+            width: 50%;
+        }
+        .images{
+            position: relative;
+            z-index: 0;
+            top: -15px;
+            img{
+                width: 100%;
+                height: auto;
+                min-height: 480.86px;
+                min-width: 511.61px;
+            }
+        }
+    } 
+}
+
+@media screen and (max-width: 1150px) {
+    .banner{
+        .images{
+            position: absolute;
+            z-index: 0;
+            top: 76px;
+            left: 46%;
+        }
+    } 
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 537px;
+    padding: 7.5% 0 7.5% 0;
+    .tittle{
+        color: $green-color;
+        font-weight: bold;
+        font-size: 48px;
+        text-align: initial;
+    }
+    div{
+        width: 100%;
+    }
+    .date{
+        font-weight: bold;
+    }
+    p, .date{
+        max-width: 325px;
+    }
+    .inscribete{
+        @include button-inscribete;
+    }
+    a{
+        @include button-inscribete
+    }
+}

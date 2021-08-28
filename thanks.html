@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="./assets/logo.svg">
+    <title>IT Summit 2021</title>
+    <link rel="stylesheet" href="./styles/styles.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <a href="#banner"><img src="./assets/logo.svg" alt="logo" class="logo"></a>
+        <nav>
+            <input type="checkbox" id="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul>
+                <li><a href="#thematic"><p>Temática</p></a></li>
+                <li><a href="#speakers"><p>Oradores</p></a></li>
+                <li><a href="#diary"><p class="active">Agenda</p></a></li>
+                <li><a href="#donors"><p>Donantes</p></a></li>
+                <li><a href="#signin"><p class="navbar--inscribete">Inscríbete</p></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner" id="banner">
+            <div class="banner--container">
+                <div class="info">
+                    <h1 class="tittle">IT Summit 2021</h1>
+                    <div>
+                        <h3 class="date">31 DE ENERO 2021 | 09:00HS</h3>
+                        <p>
+                            IT Summit es el evento hispanohablante del año en Latinoamérica que reúne a lideres 
+                            de opinión e innovación de nuestro continente. Cuenta con oradores internacionales, 
+                            sesiones de preguntas y respuestas, Hands-On y una red de contactos para hacer networking.
+                        </p>
+                    </div>
+                    <a href="#signin"><p class="inscribete">Inscríbete</p></a>
+                </div>
+                <div class="images">
+                    <img src="./assets/banner-img.png" alt="img-banner">  
+                </div>
+            </div>
+        </section>
+        <section class="thematic" id="thematic">
+            <h2 class="tittle">Temática</h2>
+            <div class="cards--container">
+                <div class="card card--live-chat">
+                    <img src="./assets/img_charlas_vivo.jpg" alt="img-charlas-vivo">
+                    <div class="card--border">
+                        <h3>Charlas en vivo</h3>
+                        <p>Disfruta de charlas en vivo de los referentes de la tecnología.</p>
+                    </div>
+                </div>
+                <div class="card card--hands-on">
+                    <img src="./assets/img_hands_on.jpg" alt="img-hands-on">
+                    <div class="card--border">
+                        <h3>Hands-On</h3>
+                        <p>Trabaja con un guía para desarrollar tu primer modelo de Machine Learning.</p>
+                    </div>   
+                </div>
+                <div class="card card--networking">
+                    <img src="./assets/img_networking.png" alt="img-networking">
+                    <div class="card--border">
+                        <h3>Networking</h3>
+                        <p>Compartí tus experiencias con todos los asistentes al evento en las salas de chat.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="speakers" id="speakers">
+            <h2 class="tittle">Principales oradores</h2>
+            <div class="speaker">
+                <img src="./assets/pamela_suarez.png" alt="Pamela-Suarez-img">
+                <div class="speaker--info">
+                    <h2>Pamela Suarez</h2>
+                    <h3>Founder en PrestaFintech</h3>
+                    <p>Pamela  fundó PrestaFintech en 2019 y actualmente es una de las más utilizadas en Argentina, Chile y Uruguay.</p>
+                    <div class="icons--container">
+                        <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-linkedin-in"></em></a>
+                        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-instagram"></em></a>
+                        <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-twitter"></em></a>
+                    </div>
+                </div>
+            </div>
+            <div class="speaker">
+                <img src="./assets/andres_hernandez.png" alt="Andres-Hernadez-img">
+                <div class="speaker--info">
+                    <h2>Andrés Felipe Hernández</h2>
+                    <h3>CTO en Trampolin</h3>
+                    <p>Andrés lidera un equipo de tecnología de mas de 100 personas para una de las principales compañias de outsourcing en Colombia</p>
+                    <div class="icons--container">
+                        <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-linkedin-in"></em></a>
+                        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-instagram"></em></a>
+                        <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-twitter"></em></a>
+                        <a href="http://www.tiktok.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-tiktok"></em></a>
+                    </div>
+                </div>
+            </div>
+            <span class="line"></span>
+            <div class="speaker">
+                <img src="./assets/margarita_vargas.png" alt="Margarita-Vargas-img">
+                <div class="speaker--info">
+                    <h2>Margarita Vargas</h2>
+                    <h3>Presidente en Ayudar!</h3>
+                    <p>Margarita desarrolló una plataforma digital donde facilita a comedores sociales la recolección de fondos a través de donaciones.</p>
+                    <div class="icons--container">
+                        <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-linkedin-in"></em></a>
+                        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-instagram"></em></a>
+                    </div>
+                </div>
+            </div>
+            <div class="speaker">
+                <img src="./assets/jasper_smith.png" alt="jasper-smith-img">
+                <div class="speaker--info">
+                    <h2>Jasper Smith</h2>
+                    <h3>Tech Lead en Ouch</h3>
+                    <p>Jasper lidera varios equipos en simultáneo donde trabajan con la última tecnología disponible</p>
+                    <div class="icons--container">
+                        <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-linkedin-in"></em></a>
+                        <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-instagram"></em></a>
+                        <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-twitter"></em></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="diary" id="diary">
+            <h2 class="tittle">Agenda</h2>
+            <!-- actividad 1 -->
+            <div class="diary--container purple">
+                <div class="diary--activity">
+                    <h4 class="time">9:00 am</h4>
+                    <div class="info-activity">
+                        <h3 class="name">Apertura</h3>
+                    </div>
+                    <h4 class="speaker">IT Summit</h4>
+                </div>
+            </div>
+            <!-- actividad 2 -->
+            <div class="diary--container blue">
+                <div class="diary--activity">
+                    <h4 class="time">9:30 - 10:30</h4>
+                    <div class="info-activity">
+                        <h3 class="name">La tecnología que viene</h3>
+                        <p class="description">Jasper nos cuenta las herramientas que están utilizando hoy en dia y que es lo que viene en materia de desarrollo.</p>
+                    </div>
+                    <h4 class="speaker">Jasper Smith</h4>
+                </div>
+            </div>
+            <!-- actividad 3 -->
+            <div class="diary--container blue">
+                <div class="diary--activity">
+                    <h4 class="time">10:45 - 12:00</h4>
+                    <div class="info-activity">
+                        <h3 class="name">Las mujeres y el desarrollo de software</h3>
+                        <p class="description">Margarita nos cuenta su experiencia en el desarrollo de software y cómo conformó su equipo de desarrolladoras.</p>
+                    </div>
+                    <h4 class="speaker">Margarita Vargas</h4>
+                </div>
+            </div>
+            <!-- actividad 4 -->
+            <div class="diary--container orange">
+                <div class="diary--activity">
+                    <h4 class="time">12:15 - 13:15</h4>
+                    <div class="info-activity">
+                        <h3 class="name">Hands-On</h3>
+                        <p class="description">Estefanía nos introduce en el maravilloso mundo del Machine Learning para contruir nuestro primer modelo en la nube.</p>
+                    </div>
+                    <h4 class="speaker">Estefanía Spada</h4>
+                </div>
+            </div>
+            <!-- actividad 5 -->
+            <div class="diary--container purple">
+                <div class="diary--activity">
+                    <h4 class="time">13:15 - 15:00</h4>
+                    <div class="info-activity">
+                        <h3 class="name">Break - Almuerzo</h3>
+                    </div>
+                    <h4 class="speaker">IT Summit</h4>
+                </div>
+            </div>
+            <!-- actividad 6 -->
+            <div class="diary--container blue">
+                <div class="diary--activity">
+                    <h4 class="time">15:00 - 16:00</h4>
+                    <div class="info-activity">
+                        <h3 class="name">24hs de desarrollo</h3>
+                        <p class="description">Andrés nos cuenta los secretos para lograr que su equipo distribuido alrededor del mundo esté produciendo las 24 horas.</p>
+                    </div>
+                    <h4 class="speaker">Andrés Felipe Hernández</h4>
+                </div>
+            </div>
+            <!-- actividad 7 -->
+            <div class="diary--container blue">
+                <div class="diary--activity">
+                    <h4 class="time">16:15 - 17:15</h4>
+                    <div class="info-activity">
+                        <h3 class="name">Un modelo Win-Win</h3>
+                        <p class="description">Pamela relata cómo su modelo de negocio permite a todos los stakeholders salir ganando.</p>
+                    </div>
+                    <h4 class="speaker">Pamela Suarez</h4>
+                </div>
+            </div>
+            <!-- actividad 8 -->
+            <div class="diary--container purple">
+                <div class="diary--activity">
+                    <h4 class="time">17:15 - 18:00</h4>
+                    <div class="info-activity">
+                        <h3 class="name">Sesión de preguntas y respuestas</h3>
+                        <p class="description">El panel de nuestros 4 oradores estrella se reúne para responder todas tus dudas o preguntas.</p>
+                    </div>
+                    <h4 class="speaker">IT Summit</h4>
+                </div>
+            </div>
+            <!-- actividad 9 -->
+            <div class="diary--container blue">
+                <div class="diary--activity">
+                    <h4 class="time">18:00 - 19:00</h4>
+                    <div class="info-activity">
+                        <h3 class="name">Música en vivo</h3>
+                        <p class="description">Disfruta de música en vivo mientras intercambias opiniones con los demás asistentes</p>
+                    </div>
+                    <h4 class="speaker">IT Summit</h4>
+                </div>
+            </div>
+        </section>
+        <section class="donors" id="donors">
+            <h2 class="tittle">Donantes</h2>
+            <p>IT Summit 2021 está infinitamente agradecido con todos los donantes que nos acompañan en el dia de hoy y que permiten que este evento no solo sea posible, sino que además sea libre y gratuito para todos.</p>
+            <div class="donors--container">
+                <div class="donor">
+                    <img src="./assets/donantes_evangelina.png" alt="evangelina-gonzalez-img">
+                    <div class="donor--info">
+                        <h2>Evangelina González</h2>
+                        <p>Gracias a la fundación que preside Evangelina, IT Summit 2021 recibió varias donaciones a lo largo del año.</p>
+                    </div>
+                </div>
+                <div class="donor">
+                    <img src="./assets/donantes_camilo.png" alt="camilo-garcia-img">
+                    <div class="donor--info">
+                        <h2>Camilo García</h2>
+                        <p>Camilo trabaja en una importante compañia multinacional de gaseosas y gestionó los fondos para una importante donación.</p>
+                    </div>
+                </div>
+                <div class="donor">
+                    <img src="./assets/celina_gomez.png" alt="celina-gomez-img">
+                    <div class="donor--info">
+                        <h2>Celina Gómez</h2>
+                        <p>Celina es una amiga de la casa tenemos una relación que perdura en el tiempo y recibimos año tras año aportes de la línea área donde trabaja.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="signin" id="signin">
+            <h2 class="tittle">Inscríbete</h2>
+            <form action="thanks.html#signin" class="form" style="display: none;">
+                <!-- Nombre -->
+                <div class="container-input">
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" required autocomplete="off" placeholder="Nombre">
+                    <p>Campo requerido</p>
+                </div>
+                <!-- Apellido -->
+                <div class="container-input">
+                    <label for="lastName">Apellido</label>
+                    <input type="text" name="lastName" id="lastName" required autocomplete="off" placeholder="Apellido">
+                    <p>Campo requerido</p>
+                </div>
+                <!-- Correo -->
+                <div class="container-input">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required autocomplete="off" placeholder="E-mail">
+                    <p>Campo requerido</p>
+                </div>
+                <!-- Empresa -->
+                <div class="container-input">
+                    <label for="enterprise">Empresa</label>
+                    <input type="text" name="enterprise" id="enterprise" autocomplete="off" placeholder="Empresa">
+                </div>
+                <!-- Cargo -->
+                <div class="container-input">
+                    <label for="charge">Cargo</label>
+                    <input type="text" name="charge" id="charge" autocomplete="off" placeholder="Cargo">
+                </div>
+                <!-- Teléfono -->
+                <div class="container-input">
+                    <label for="telephone">Teléfono</label>
+                    <input type="text" name="telephone" id="telephone" autocomplete="off" required placeholder="Teléfono">
+                    <p>Campo requerido</p>
+                </div>
+                <!-- Paises -->
+                <div class="container-input">
+                    <label for="country">País</label>
+                    <select name="country" id="country">
+                        <option value="" selected disabled hidden>País</option>
+                        <option value="Argentina" id="AR">Argentina</option>
+                        <option value="Brasil" id="BR">Brasil</option>
+                        <option value="Chile" id="CL">Chile</option>
+                        <option value="Colombia" id="CO">Colombia</option>
+                        <option value="Ecuador" id="EC">Ecuador</option>
+                        <option value="Paraguay" id="PY">Paraguay</option>
+                        <option value="Perú" id="PE">Perú</option>
+                        <option value="Uruguay" id="UY">Uruguay</option>
+                        <option value="Venezuela" id="VE">Venezuela</option>
+                    </select>
+                    <p>Campo requerido</p>
+                </div>    
+                <!-- Ciudades -->
+                <div class="container-input">
+                    <label for="city">Localidad</label>
+                    <select name="city" id="city">
+                        <option value="" selected disabled hidden>Localidad</option>                
+                        <!-- Ciudades Argentina -->
+                        <option value="" disabled>--- Argentina ---</option>
+                        <option value="Buenos Aires">Buenos Aires</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Rosario">Rosario</option>
+                        <!-- Ciudades Brasil -->
+                        <option value="" disabled>--- Brasil ---</option>
+                        <option value="Brasilia">Brasilia</option>
+                        <option value="Río de Janeiro">Río de Janeiro</option>
+                        <option value="São Paulo">São Paulo</option>
+                        <!-- Ciudades Chile -->
+                        <option value="" disabled>--- Chile ---</option>
+                        <option value="Concepción">Concepción</option>
+                        <option value="Gran Valparaíso">Gran Valparaíso</option>
+                        <option value="Santiago de Chile">Santiago de Chile</option>
+                        <!-- Ciudades Colombia -->
+                        <option value="" disabled>--- Colombia ---</option>
+                        <option value="Barranquilla">Barranquilla</option>
+                        <option value="Bogotá">Bogotá</option>
+                        <option value="Medellín">Medellín</option>
+                        <!-- Ciudades Ecuador -->
+                        <option value="" disabled>--- Ecuador ---</option>
+                        <option value="Cuenca">Cuenca</option>
+                        <option value="Guayaquil">Guayaquil</option>
+                        <option value="Quito">Quito</option>
+                        <!-- Ciudades Paraguay -->
+                        <option value="" disabled>--- Paraguay ---</option>
+                        <option value="Asunción">Asunción</option>
+                        <option value="Ciudad del Este">Ciudad del Este</option>
+                        <option value="San Lorenzo">San Lorenzo</option>
+                        <!-- Ciudades Perú -->
+                        <option value="" disabled>--- Perú ---</option>
+                        <option value="Arequipa">Arequipa</option>
+                        <option value="Lima">Lima</option>
+                        <option value="Trujillo">Trujillo</option>
+                        <!-- Ciudades Uruguay -->
+                        <option value="" disabled>--- Uruguay ---</option>
+                        <option value="Ciudad de la Costa">Ciudad de la Costa</option>
+                        <option value="Montevideo">Montevideo</option>
+                        <option value="Salto">Salto</option>
+                        <!-- Ciudades Venezuela -->
+                        <option value="" disabled>--- Venezuela ---</option>
+                        <option value="Caracas">Caracas</option>
+                        <option value="Maracaibo">Maracaibo</option>
+                        <option value="Valencia">Valencia</option>
+                    </select>
+                    <p>Campo requerido</p>
+                </div>
+                <div class="container-button">
+                    <input type="submit" value="Registrarme" class="submit">
+                </div>
+            </form>
+            <div class="thanks" style="display: flex;">
+                <i class="fas fa-check"></i>
+                <div class="container">
+                    <h3>¡Gracias por registrarte!</h3>
+                    <p>Tu participación está confirmada</p>
+                </div>
+                <p>El día del evento recibirás el link para conectarte al evento en vivo</p>
+                <h3>¡Te esperamos!</h3>
+                <p>Comparte este evento en tus redes sociales</p>
+                <div class="icons--container thanks--icons--container">
+                    <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-linkedin-in"></em></a>
+                    <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-instagram"></em></a>
+                    <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-twitter"></em></a>
+                    <a href="http://www.tiktok.com" target="_blank" rel="noopener noreferrer"><em class="fab fa-tiktok"></em></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright © IT Summit. Todos los derechos reservados
+    </footer>
+</body>
+</html>

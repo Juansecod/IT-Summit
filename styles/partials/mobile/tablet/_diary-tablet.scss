@@ -1,0 +1,46 @@
+.diary{
+    padding: 0 10% 45px 10%;
+    &--container{
+        width: 100%;
+        min-height: 100px;
+        display: flex;
+        flex-direction: row;
+        border-bottom: $border-container-signin;
+    }
+    &--activity{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        h4{
+            display: inline-block;
+            width: 15%;
+        }
+        div{
+            width: 60%;
+            max-height: 100px;
+        }
+    }
+    .purple{
+        h4{
+            color: $purple-color;
+        }
+    }
+    .blue{
+        h4{
+            color: $blue-color;
+        }
+    }
+    .orange{
+        h4{
+            color: $yellow-color;
+        }
+    }
+}
+
+.info-activity{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100px;
+}

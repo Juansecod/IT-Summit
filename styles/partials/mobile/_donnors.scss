@@ -1,0 +1,11 @@
+.donors{
+    padding: 2.5% 10% 15% 10%;
+    &--container{
+        flex-wrap: wrap;
+    }
+}
+
+.donor{
+    max-width: 100%;
+    width: 100%;   
+}

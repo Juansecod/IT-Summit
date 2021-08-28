@@ -1,0 +1,13 @@
+.speakers{
+    padding: 2.5% 10% 5% 10%;
+    gap: 18%;
+    .line{
+        display: none;
+    }
+}
+
+.speaker{
+    display: flex;
+    max-width: 100%;
+    gap: 20px;
+}
